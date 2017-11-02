@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/mobile"
+            android:labelFor="@id/editText"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:drawableEnd="@drawable/contact"
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Mobile Number"
+                android:importantForAutofill="noExcludeDescendants"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/amt"
+            android:labelFor="@id/editText"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Enter Amount"
+                android:importantForAutofill="noExcludeDescendants"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/desc2"
+            android:labelFor="@id/editText"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Description (Optional)"
+                android:importantForAutofill="noExcludeDescendants"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="318dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/shapes"
+        android:text="Proceed"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/footer2"
+        android:scaleType="centerCrop"/>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "216106950993",
+    "firebase_url": "https://tic-tac-toe-3s.firebaseio.com",
+    "project_id": "tic-tac-toe-3s",
+    "storage_bucket": "tic-tac-toe-3s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216106950993:android:450424716191125d",
+        "android_client_info": {
+          "package_name": "com.freepaypet.tictactoe3s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216106950993-6i8kvf84jaf37adae97s480q0s90t4r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuoV4l-5qcySbg24Cz2bFDza7xn6sMUsA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216106950993:android:6ed8ebe434219f38",
+        "android_client_info": {
+          "package_name": "com.example.sairaj.paypet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216106950993-6i8kvf84jaf37adae97s480q0s90t4r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuoV4l-5qcySbg24Cz2bFDza7xn6sMUsA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

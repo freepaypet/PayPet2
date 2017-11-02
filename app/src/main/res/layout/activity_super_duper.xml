@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sairaj.paypet.SuperDuperActivity">
+
+    <ImageView
+        android:id="@+id/animationStatus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/tick" />
+
+    <TextView
+        android:id="@+id/rsShowerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="\u20B9"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/animationStatus"/>
+
+    <TextView
+        android:id="@+id/sentSuccessfully"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Sent Successfully to"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rsShowerId"/>
+
+    <TextView
+        android:id="@+id/nameOfPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Sairaj Sawant"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sentSuccessfully"/>
+
+    <TextView
+        android:id="@+id/mobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nameOfPerson"/>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="____"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mobileNumber"/>
+
+    <TextView
+        android:id="@+id/time_and_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/line"/>
+
+    <TextView
+        android:id="@+id/wallet_txn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/time_and_date"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:layout_below="@id/wallet_txn_id"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/animationStatus"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/footer" />
+
+
+</RelativeLayout>

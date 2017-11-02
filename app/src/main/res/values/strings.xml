@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PayPet</string>
+    <string name="welcome">Enter Mobile Number to Pay</string>
+    <string name="HelloWorld">Hello World</string>
+</resources>
