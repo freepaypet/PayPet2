@@ -7,6 +7,30 @@
     android:layout_height="match_parent"
     tools:context="com.example.sairaj.paypet.HomeActivity">
 
+    <EditText
+        android:visibility="gone"
+        android:inputType="number"
+        android:id="@+id/mobileNumberEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"/>
+
+    <EditText
+        android:visibility="gone"
+        android:hint="Name"
+        android:layout_below="@id/mobileNumberEnter"
+        android:id="@+id/nameEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@id/nameEnter"
+        android:visibility="gone"
+        android:id="@+id/hit"
+        android:text="Sumbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

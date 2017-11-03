@@ -38,6 +38,8 @@ dependencies {
 
     compile 'com.github.florent37:viewanimator:1.0.5'
 
+    compile 'com.google.firebase:firebase-database:11.4.2'
+
 
 }
 apply plugin: 'com.google.gms.google-services'

@@ -29,7 +29,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp">
 
-            <EditText
+            <android.widget.AutoCompleteTextView
                 android:drawableEnd="@drawable/contact"
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
