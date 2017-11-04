@@ -29,6 +29,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp">
 
+            <TextView
+                android:id="@+id/mobile_error"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF0000"
+                android:text="Please enter a valid mobile number."
+                android:visibility="invisible"/>
+
             <android.widget.AutoCompleteTextView
                 android:drawableEnd="@drawable/contact"
                 android:id="@+id/editText"
@@ -124,8 +133,7 @@
         android:layout_width="318dp"
         android:layout_height="63dp"
         android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:layout_marginTop="8dp"
+        android:layout_margin="1dp"
         android:layout_marginStart="30dp"
         android:background="@drawable/shapes"
         android:text="Proceed"

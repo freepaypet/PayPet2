@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (!Pattern.matches("^[789]\\d{9}$", requiredEditTextList.get(0).getText().toString())) {
                     doWorkd = false;
+                    ((TextView) findViewById(R.id.mobile_error)).setVisibility(1);
                     progDialog.dismiss();
                 }
                 if (doWorkd) {
