@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (!Pattern.matches("^[789]\\d{9}$", requiredEditTextList.get(0).getText().toString())) {
                     doWorkd = false;
-                    ((TextView) findViewById(R.id.mobile_error)).setVisibility(1);
+                    ((TextView) findViewById(R.id.mobile_error)).setVisibility(View.VISIBLE);
                     progDialog.dismiss();
                 }
                 if (doWorkd) {
